@@ -1,0 +1,14 @@
+EXERCICIO RESOLVIDO
+
+*1. O que é um alfabeto Σ?*
+R=  Esse simbolo significa SIGMA, como se você tivesse apenas duas letras disponíveis (Σ = {0, 1}).
+
+*2. O que é uma cadeia?*
+
+R=É quando pegamos os símbolos e colocamos em sequência.
+
+*3. O que é ε?*
+R= É uma cadeia vazia ou seja não tem nenhum simbolo nome do simbolo é (épsilon).
+
+*4. Por que |ε| = 0?
+R= O simbolo | | está dizendo quanto simbolos existem como o épsilon é uma cadeia vazia ele acaba ficando com o "valor" 0
