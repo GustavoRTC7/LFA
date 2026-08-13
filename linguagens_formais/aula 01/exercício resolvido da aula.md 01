@@ -12,3 +12,209 @@ R= É uma cadeia vazia ou seja não tem nenhum simbolo nome do simbolo é (épsi
 
 *4. Por que |ε| = 0?
 R= O simbolo | | está dizendo quanto simbolos existem como o épsilon é uma cadeia vazia ele acaba ficando com o "valor" 0
+
+*5. O que é prefixo?*
+R= Prefixo é uma parte que está no começo
+
+*6. O que é sufixo?*
+R= No caso do Sufixo será o oposto é a parte que esta no final.
+
+*7.O que é Σ*?*
+R= Ó * significa que podemos usar o simbolo quantas vezes quiser.
+
+*8.Σ* tem tamanho máximo?*
+R= Não. podemos fazer desse jeito colando varios
+-a--
+--aa---
+---aaa---
+----aaaa----
+-----aaaaa-------
+-------aaaaaaaa-------
+--------aaaaaaaaaaaa-----
+
+*9.O que é uma linguagem L?*
+
+R= Uma linguagem é apenas uma coleção de cadeias.
+
+Por exemplo:
+
+L = {a, aa, aaa}
+
+Isso é uma linguagem.
+
+Outra:
+
+L = {casa, carro, bola}
+
+
+*10. O que significa L ⊆ Σ*?*
+
+Não precisa ter medo desse símbolo:
+
+⊆
+
+Leia:
+
+"está dentro de".
+
+Então:
+
+L ⊆ Σ*
+
+significa:
+
+As cadeias de L estão dentro de Σ*.
+
+*11. O que é uma gramática?*
+
+R= Agora pense que queremos criar palavras seguindo regras.
+
+A gramática é justamente o conjunto dessas regras.
+
+É como um jogo:
+
+"Comece aqui."
+"Agora você pode fazer isso."
+"Depois pode fazer aquilo."
+
+Essas regras permitem criar palavras.
+
+*12. Terminais e não terminais?*
+
+R= Terminal É o símbolo que vai aparecer no resultado final.
+
+a
+
+Não terminal
+
+É um símbolo que usamos durante a construção.
+
+
+*13. O que é uma regra de produção?*
+
+É simplesmente uma regra dizendo o que podemos trocar.
+
+Por exemplo:
+
+S → a
+
+Significa:
+
+"Troque S por a."
+
+Outro exemplo:
+
+S → aS
+
+Significa:
+
+"Troque S por aS."
+
+*14. Como ler S → aS | ε?*
+
+Essa parece assustadora, mas é simples.
+
+Temos:
+
+S → aS | ε
+
+Leia:
+
+S pode virar aS OU ε.
+
+O | significa OU.
+
+Então temos duas opções:
+
+S → aS
+
+ou
+
+S → ε
+
+É só isso.
+
+*15. Como gerar uma palavra?*
+
+Vamos usar:
+
+S → aS | ε
+
+Queremos criar:
+
+aaa
+
+Começamos com:
+
+S
+Primeira escolha
+
+Usamos:
+
+S → aS
+
+Fica:
+
+aS
+
+*16. E se quisermos criar aa?*
+
+Começamos:
+
+S
+
+Depois:
+
+S → aS
+
+fica:
+
+aS
+
+Novamente:
+
+aS → aaS
+
+Agora paramos:
+
+aaS → aaε
+
+Resultado:
+
+aa
+
+*17. E podemos criar só a?*
+
+Sim:
+
+S
+↓
+aS
+↓
+aε
+↓
+a
+
+*18. E podemos criar ε?*
+
+Sim!
+
+Basta fazer:
+
+S
+↓
+ε
+
+Então essa gramática:
+
+S → aS | ε
+
+consegue criar:
+
+ε
+a
+aa
+aaa
+aaaa
+aaaaa
+...
