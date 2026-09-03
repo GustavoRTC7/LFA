@@ -1,7 +1,5 @@
 # Gabarito — Lista de Exercícios de Autômatos Finitos Determinísticos (AFD)
 
-## Parte 1 — Fundamentos
-
 ### Exercício 1 — Entendendo um autômato finito
 1. Existem **2 estados**: `Desligado` e `Ligado`.
 2. O estado inicial é **`Desligado`**.
@@ -20,8 +18,8 @@ Tabela de transição:
 | Aberto | pessoa_detectada | Aberto |
 | Aberto | nenhuma_pessoa | Fechado |
 
-* **Estado inicial:** `Fechado`
-* **Diagrama (descrição textual):** `Fechado` vai para `Aberto` com `pessoa_detectada` (e permanece em `Fechado` com `nenhuma_pessoa`). `Aberto` vai para `Fechado` com `nenhuma_pessoa` (e permanece em `Aberto` com `pessoa_detectada`).
+* **Estado inicial:** `Fechadp`
+* **Diagrama (descrição textual):** `Fechado` vai para `Aberto` com `pessoa_dedectada` (e permanece em `Fechado` com `nenhuma_pessoa`). `Aberto` vai para `Fechado` com `nenhuma_pessoa` (e permanece em `Aberto` com `pessoa_detectada`).
 
 ---
 
