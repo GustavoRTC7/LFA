@@ -1,6 +1,6 @@
 # Gabarito — Lista de Exercícios de Autômatos Finitos Determinísticos (AFD)
 
-### Exercício 1 — Entendendo um autômato finito
+### Exercício 1 — Entendendo um autômato finito.
 1. Existem **2 estados**: `Desligado` e `Ligado`.
 2. O estado inicial é **`Desligado`**.
 3. A entrada que provoca uma transição é **`pressionar`**.
