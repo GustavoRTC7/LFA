@@ -3,7 +3,7 @@
 ## 1. Alfabeto
 
 Considere o alfabeto:
-
+.
 $$
 \Sigma = \{a,b,c\}
 $$
