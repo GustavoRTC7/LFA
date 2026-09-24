@@ -1,6 +1,6 @@
 Atividades de 11/08 - valor: 0,5
 
-# Aula 02: Sumário, objetivos, conteúdo, exemplos, exercícios e revisão para prova.
+Sumário, objetivos, conteúdo, exemplos, exercícios e revisão para prova.
 
 
 
