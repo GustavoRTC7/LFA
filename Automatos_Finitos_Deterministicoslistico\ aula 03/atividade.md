@@ -1,3 +1,11 @@
+Identificação do grupo
+Campo	Preenchimento
+Turma	N1
+Data	01/09/2026
+Integrante 1	- Gustavo Rodrigues  
+Integrante 2 - João 
+Integrante 3 - Fellipe 
+
 # Gabarito — Lista de Exercícios de Autômatos Finitos Determinísticos (AFD)
 
 ### Exercício 1 — Entendendo um autômato finito.
