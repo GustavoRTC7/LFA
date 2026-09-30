@@ -45,6 +45,9 @@ Para resolver o desafio de reconhecer palavras da forma $0^n1^n$ (mesma quantida
 | **1**     | `0011`      | ACEITA                 | XXYY              | `q0` $\rightarrow$ `escreve_X` $\rightarrow$ `procura_1` $\rightarrow$ `escreve_Y` $\rightarrow$ `retorna` $\rightarrow$ `aceita`  |
 | **2**     | `000111`    | ACEITA                 | XXXYYY               | `q0` $\rightarrow$ `escreve_X` $\rightarrow$ `procura_1` $\rightarrow$ `escreve_Y` $\rightarrow$ `retorna` $\rightarrow$ `aceita`  |
 | **3**     | `00111`     | REJEITA                | XXYY1           | `q0` $\rightarrow$ `escreve_X` $\rightarrow$ `procura_1` $\rightarrow$ `escreve_Y` $\rightarrow$ `retorna` $\rightarrow$ `rejeita` |
+![image alt]()
+![image alt]()
+![image alt]()
 
 ## 🧠 Etapa 4 — Reflexão sobre os Limites Computacionais
 
