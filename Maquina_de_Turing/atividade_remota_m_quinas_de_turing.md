@@ -53,9 +53,9 @@ Para resolver o desafio de reconhecer palavras da forma $0^n1^n$ (mesma quantida
 
 
 
-![image alt](https://github.com/GustavoRTC7/LFA/blob/main/000111.png?raw=true)
-![image alt]()
-![image alt]()
+![image alt](https://github.com/GustavoRTC7/LFA/blob/main/0011.png?raw=true)
+![image alt](https://github.com/GustavoRTC7/LFA/blob/main/000111.png?raw=true))
+![image alt](https://github.com/GustavoRTC7/LFA/blob/main/00111.png?raw=true)
 
 ## 🧠 Etapa 4 — Reflexão sobre os Limites Computacionais
 
