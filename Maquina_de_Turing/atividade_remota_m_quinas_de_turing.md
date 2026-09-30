@@ -46,3 +46,18 @@ Para resolver o desafio de reconhecer palavras da forma $0^n1^n$ (mesma quantida
 | **2**     | `000111`    | ACEITA                 | XXXYYY               | `q0` $\rightarrow$ `escreve_X` $\rightarrow$ `procura_1` $\rightarrow$ `escreve_Y` $\rightarrow$ `retorna` $\rightarrow$ `aceita`  |
 | **3**     | `00111`     | REJEITA                | XXYY1           | `q0` $\rightarrow$ `escreve_X` $\rightarrow$ `procura_1` $\rightarrow$ `escreve_Y` $\rightarrow$ `retorna` $\rightarrow$ `rejeita` |
 
+## 🧠 Etapa 4 — Reflexão sobre os Limites Computacionais
+
+**Pergunta:** Uma Máquina de Turing consegue resolver qualquer problema? Explique com suas palavras por que existem problemas que não podem ser resolvidos por algoritmos.
+
+**Resposta:**
+Não, uma Máquina de Turing não consegue resolver todos os problemas existentes; existem problemas formais que são classificados como não computáveis, o que significa que é matematicamente impossível criar um algoritmo universal capaz de os resolver. A razão fundamental é que o conjunto de todas as funções possíveis é infinitamente maior do que o conjunto de programas finitos que podem ser escritos. Portanto, existem limites lógicos intransponíveis para a computação automática, o que evidencia que os limites da computação não são apenas uma questão de limitação de hardware, velocidade ou falta de otimização, mas sim barreiras matemáticas intransponíveis do que é calculável.
+
+---
+
+## 🎯 Questão Final — Problema para Reflexão
+
+**Problema:** Imagine que você recebeu um problema computacional muito complexo. Como saber se ele é apenas difícil de resolver ou se, na verdade, não existe nenhum algoritmo capaz de resolvê-lo para todos os casos? Explique utilizando os conceitos estudados sobre Máquinas de Turing, computabilidade e limites computacionais.
+
+**Resposta:**
+Para saber se um problema carece de uma solução algorítmica, a teoria da computabilidade utiliza demonstrações formais (como o argumento de Turing) para provar que a tentativa de criar um programa resolvedor universal falhará para casos patológicos. Se for provado que o problema é equivalente ou irredutível a problemas indecidíveis conhecidos, conclui-se que ele está além dos limites fundamentais da computação, tornando impossível a criação de um algoritmo que funcione para todos os casos.
