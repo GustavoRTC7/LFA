@@ -3,7 +3,7 @@
 **Disciplina:** Linguagens Formais e Autômatos | Ciência da Computação  
 **Turma:** N1 C.C  
 
----
+----
 
 ## Exercício 2.3
 
