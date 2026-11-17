@@ -1,4 +1,4 @@
-Markdown# 🛡️ GuardIA — Sistema Especialista de Filtragem de Mensagens
+# 🛡️ GuardIA — Sistema Especialista de Filtragem de Mensagens
 
 Projeto acadêmico de Inteligência Artificial desenvolvido para a **Avaliação A1** da disciplina de Linguagens Formais e Autômatos, demonstrando o funcionamento clássico de um Sistema Especialista para filtragem de mensagens (SMS, e-mail e WhatsApp). 
 
